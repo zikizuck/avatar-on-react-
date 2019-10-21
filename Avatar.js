@@ -1,4 +1,5 @@
 import React from 'react';
+import Click from "./Click";
 
 class Avatar extends React.Component {
 
@@ -11,9 +12,7 @@ class Avatar extends React.Component {
 
         return (
             <div>
-                <header>
-                    <h1 style={{color:'blue'}}>My first React AVATAR</h1>
-                </header>
+
                 <div>
                     <a href="http://www.avatar.com">
                         <img
@@ -24,6 +23,7 @@ class Avatar extends React.Component {
 
                     </a>
                 </div>
+                <Click />
             </div>
         );
     }
